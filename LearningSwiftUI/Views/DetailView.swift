@@ -10,8 +10,8 @@ import SwiftUI
 
 struct DetailView: View {
   var body: some View {
-  Text("This is the detail view")
-    .navigationBarTitle("Detail View", displayMode: .inline)
+  Text("This is the detail view. Well its not really that detailed, but it can be.")
+    .navigationBarTitle("Detail View", displayMode: .inline).padding()
   }
 }
 
